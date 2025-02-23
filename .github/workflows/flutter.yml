@@ -36,8 +36,8 @@ jobs:
         with:
           name: app-release-bundle
           path: |
-            build/app/outputs/bundle/productionRelease/app-production-release.aab
-            build/app/outputs/flutter-apk/app-production-release.apk
+            build/app/outputs/bundle/unsignedRelease/app-unsigned-release.aab
+            build/app/outputs/flutter-apk/app-unsigned-release.apk
   lint:
     name: Lint
     runs-on: ubuntu-latest
